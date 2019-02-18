@@ -25,6 +25,8 @@ body {
     width: 100px;
 }
 
+
+
 .navbar-default .navbar-nav>li>a {
     color: black;
     font-weight: 300;
@@ -65,6 +67,10 @@ div.row.mainBox {
 
 }
 
+
+#construct{
+width:100px;
+}
 #slogan h2 {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -134,6 +140,11 @@ a#icon {
     #rama img {
         display: none;
     }
+
+
+    #construct{
+        width:100px;
+        }
 
 
 
