@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a.highlight {
-    color: #d11819;
+    color:#FF0000;
 }
 
 
@@ -47,8 +47,8 @@ body {
 
 #mainStuff {
     background-color: #1b3a4f;
-    overflow: hidden;
-
+    padding:0px !important;
+    
 
 
 
@@ -110,10 +110,12 @@ width:100px;
 
 #mockUp {
     position: relative;
+    overflow: hidden;
     margin-top: 270px;
 }
 
 #mockUp img {
+   
     width: 800px;
 }
 
