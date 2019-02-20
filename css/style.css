@@ -10,6 +10,10 @@ body {
 }
 
 
+#mySidenav{
+display:none;
+}
+
 #kichwa {
     border-bottom: 1px solid #e7e7e7;
     height: 200px;
@@ -139,17 +143,19 @@ a#icon {
 
 @media only screen and (max-width : 480px) {
 
+
+    #mySidenav{
+        display:block;
+        }
+        
+
     #rama img {
         display: none;
     }
 
-
     #construct{
         width:100px;
         }
-
-
-
     #slogan h2 {
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
@@ -164,7 +170,6 @@ a#icon {
         margin-top: 10px;
     }
 
-
     br.mobNone {
         display: none;
     }
@@ -172,8 +177,6 @@ a#icon {
     #mockUp img {
         width: 500px;
     }
-
-
 
 
 }
