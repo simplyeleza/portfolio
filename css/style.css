@@ -29,18 +29,29 @@ display:none;
     width: 100px;
 }
 
+#contact{
+    color:#ffffff;
+    background-color: #1b3a4f; 
+    border:1px solid black; 
+}
 
+
+#contact:hover{
+background-color: #a5130f;
+}
 
 .navbar-default .navbar-nav>li>a {
     color: black;
     font-weight: 300;
     font-size: 16pt;
-    background-color: transparent !important;
+    background-color: transparent ;
 }
 
 .navbar-default .navbar-nav>li>a.highlight {
-    color:#FF0000;
+    color:#a5130f;
 }
+
+
 
 
 /* Main Stuff For Marketing */
@@ -144,10 +155,7 @@ a#icon {
 @media only screen and (max-width : 480px) {
 
 
-    #mySidenav{
-        display:block;
-        }
-        
+ 
 
     #rama img {
         display: none;
@@ -179,4 +187,5 @@ a#icon {
     }
 
 
+   
 }
