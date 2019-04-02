@@ -247,6 +247,112 @@ text-decoration:none;
 
 }
 
+
+
+/* Portfolio */
+
+
+
+#portFolio{
+text-align: center;
+}
+
+
+#portFolio h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:34pt;
+    }
+
+.portSite{
+    background-color:black;
+    margin: 50px;
+    width:450px;
+    height:200px;
+
+}
+
+
+#portFolio a{
+    display:block;
+    text-align:center;
+    color:#ffffff;
+    width:300px;
+    line-height:25px;
+    padding:13px 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    border-radius:50px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    margin:0px auto 0px auto;
+    margin-top:50px;
+    transition:all .5s ease;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    border:2px solid #FFFFFF;
+    background-color:#23232d;
+    text-decoration:none;
+}
+
+/* Contact */
+
+
+
+
+#foot{
+    margin-top:50px;
+    text-align:center;
+    background-color: #23232d;
+}
+
+
+#foot h3{
+ color:#ffffff;
+}
+
+
+#foot h4{
+    color:#ffffff;
+}
+
+.socialBox{
+position:relative;
+text-align: center;
+}
+
+.social{
+text-align: center;
+margin:0px auto 0px auto;
+margin-top: 20px;
+margin-bottom: 20px;
+float:none;
+}
+
+
+
+.social a{
+margin:10px;
+}
+
+
+.social a i.fa-linkedin{
+color:#0077b5;
+}
+
+
+.social a i.fa-youtube{
+color:#cc181e;
+}
+
+
+.social a i.fa-instagram{
+color: #405de6;
+}
+
+
+
+
 /* Custom, iPhone Retina */
 
 
