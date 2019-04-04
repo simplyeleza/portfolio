@@ -193,6 +193,7 @@ padding-bottom:120px;
 
 #cv .resume{
 padding:40px;
+margin-left: 150px;
 }
 
 
@@ -202,9 +203,18 @@ padding:40px;
 
 }
 
-#cv.resume.resHead img{
-
+#cv .resume .resHead img{
+background-color: #ffffff;
+border-radius: 50px;
+transition:all .5s ease;
+-webkit-transition:all 1s ease;
+-moz-transition:all 1s ease;
 }
+
+
+/* #cv .resume .resHead img:hover{
+    background-color: #a5130f;
+} */
 
 #cv .resume .resHead h3{
     display: inline;
@@ -237,14 +247,16 @@ margin:0px auto 0px auto;
 margin-top:50px;
 transition:all .5s ease;
 -webkit-transition:all 1s ease;
--moz-transition:all 1s ease;
+-moz-transition:all 2s ease;
 border:2px solid #FFFFFF;
 background-color: #ffffff;
 text-decoration:none;
 }
 
 #cv a:hover{
-
+     color: #ffffff;
+    background-color: #a5130f;
+    letter-spacing: 2px;
 }
 
 
@@ -264,13 +276,31 @@ text-align: center;
     font-size:34pt;
     }
 
+
+
+
+
+
 .portSite{
     background-color:black;
     margin: 50px;
     width:450px;
-    height:200px;
+    height:300px;
+    padding:0px;
+    overflow: hidden;
+    border: 1px solid #23232d;
+
 
 }
+
+
+.portSite img{
+
+}
+
+
+
+
 
 
 #portFolio a{
@@ -293,6 +323,14 @@ text-align: center;
     border:2px solid #FFFFFF;
     background-color:#23232d;
     text-decoration:none;
+}
+
+
+
+#portFolio a:hover{
+    color: #ffffff;
+    background-color: #a5130f;
+    letter-spacing: 2px;
 }
 
 /* Contact */
