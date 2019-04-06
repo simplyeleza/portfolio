@@ -97,3 +97,21 @@ element.addEventListener('event',functionName[,boolean]);
 var el1=document.getElementById('username');
 el1.addEventListener('blur',checkUsername,false);
 
+
+
+
+
+
+
+var allButtonsOnPage = document.querySelectorAll('button');
+ 
+var logButtonIndex = function(buttonIndex) {
+  console.log('buttonIndex:', buttonIndex);
+}
+ 
+for (var i = 0; i < allButtonsOnPage.length; i++) {
+  allButtonsOnPage[i].addEventListener('click', function() {
+    logButtonIndex(i);
+  });
+}
+

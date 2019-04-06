@@ -187,16 +187,17 @@
 
 
         <div class="col-md-6 portSite">
-               <a href="#" >View More</a>
-          <img src="images/sites/prof.jpg" >
-
+          <a href="#" >View More</a>   
+          <img src="images/sites/prof.jpg" class="pics" />
+          
           
 
         </div>
 
 
         <div class="col-md-6 portSite">
-          <img src="images/sites/paradise2.png" >
+            <a href="#" >View More</a>   
+          <img src="images/sites/paradise2.png" class="pics" />
         </div>
 
 
@@ -210,12 +211,14 @@
 
 
           <div class="col-md-6 portSite">
-            <img src="images/sites/gotick.jpg" >
+              <a href="#" >View More</a>   
+            <img src="images/sites/gotick.jpg" class="pics" />
           </div>
   
   
           <div class="col-md-6 portSite">
-            <img src="images/sites/phan.jpg" >
+              <a href="#" >View More</a>   
+            <img src="images/sites/phan.jpg" class="pics" />
           </div>
   
   
@@ -226,7 +229,7 @@
 
 
 
-        <a href="images/rama_ken.pdf"> PortFolio    <i class="fas fa-cloud-download-alt"></i></a>  
+        <a id="portFol"  href="images/rama_ken.pdf"> PortFolio    <i class="fas fa-cloud-download-alt"></i></a>  
 
 
 
@@ -281,6 +284,98 @@
   <script src="js/bootstrap.min.js"></script>
 
   <script src="js/script.js" type="text/javascript"></script>
+
+
+  <script>
+  
+
+  
+  var pics = document.getElementById('portFolio');
+
+
+  pics.addEventListener('mouseover',function(e){
+    
+    //console.log(e);
+    
+    if(e.target.tagName === 'IMG') {
+
+      
+
+      var pictureBox = e.target.parentNode;
+
+      //console.log(picture + "Is the parent ");
+
+      var picture =e.target;
+      
+      var button = picture.previousElementSibling;
+
+      //console.log(picture);
+
+      console.log(button);
+
+      button.style.display="block";
+
+      picture.style.opacity="0.1";
+
+
+
+      picture.addEventListener('mouseout',function(){
+     
+        button.style.display="none";
+        picture.style.opacity="1.0";
+
+      })
+
+
+
+
+
+
+    }
+
+  },false);
+
+
+
+
+
+
+
+
+
+
+//   var pics =document.getElementById('pics');
+
+// pics.addEventListener('click',function(e){
+
+//  console.log(e);
+//  if(e.target.tagName === 'IMG') {
+
+//        console.log(this);
+//        var howMany =this.querySelectorAll('a').length;
+
+//        if(howMany > 1 ){
+//          var removeTarget = e.target.parentNode;
+//          removeTarget.parentNode.removeChild(removeTarget);
+//        } else {
+
+//          var photoTitle = e.target.alt;
+
+         
+
+
+//          document.getElementById('change').innerHTML= "<p> You've changed " + photoTitle + "</p>";
+
+//        }
+//  }
+// },false);
+
+
+
+
+
+  
+  </script>
 
 
   

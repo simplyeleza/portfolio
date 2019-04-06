@@ -294,8 +294,8 @@ text-align: center;
 }
 
 .portSite a{
-    position: absolute;
-    display:block;
+    display: none;
+    position:absolute;
     text-align:center;
     color:#ffffff;
     width:300px;
@@ -316,6 +316,12 @@ text-align: center;
 }
 
 
+.portSite a:hover{
+    color: #ffffff;
+    background-color: #a5130f;
+    letter-spacing: 2px;
+}
+
 .portSite img{
 
 }
@@ -325,7 +331,7 @@ text-align: center;
 
 
 
-#portFolio a{
+ a#portFol{
     display:block;
     text-align:center;
     color:#ffffff;
