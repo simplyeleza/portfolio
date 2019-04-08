@@ -289,8 +289,13 @@ text-align: center;
     padding:0px;
     overflow: hidden;
     box-shadow: 10px 10px 5px grey;
-
+  
 }
+
+
+
+
+
 
 .portSite a{
     display: none;
@@ -323,6 +328,9 @@ text-align: center;
 }
 
 .portSite img{
+    transition:all .5s ease;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
 
 }
 
