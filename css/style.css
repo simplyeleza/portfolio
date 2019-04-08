@@ -288,8 +288,7 @@ text-align: center;
     height:300px;
     padding:0px;
     overflow: hidden;
-    border: 1px solid #23232d;
-
+    box-shadow: 10px 10px 5px grey;
 
 }
 
