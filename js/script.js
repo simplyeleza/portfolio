@@ -106,11 +106,6 @@ for(var i=0; i < slideqty; i++){
 
 
 
-
-
-
-
-
 $('.carousel').carousel({
 	interval:2000,
 	
