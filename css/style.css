@@ -437,13 +437,56 @@ color: #405de6;
 
 
 @media only screen and (max-width : 768px) {
-
-
+    
+    #mainStuff{
+        position: relative;
+        overflow: hidden;
+    }
+    
     #cv .resume {
         padding: 40px;
         margin-left:50px;
 
-}
+    }
+
+    #slogan {
+     margin-top: 50px;
+     position:absolute;
+     top: 0px;
+     right: 100px;
+
+     
+    }
+
+
+    #slogan h2{
+        font-size: 150%;
+    }
+
+    #mockUp {
+        float: right;
+        margin-right: 200px;
+        overflow:visible;
+        margin-top:200px;
+
+    }
+    #mockUp img{
+        width: 550px;
+    }
+
+    #rama img{
+        width:200px;
+    }
+
+     
+    #aboutMe  {
+        padding:15px 15px 80px 15px; 
+    }
+
+    #aboutMe p {
+     width:100%;
+     text-align: left;
+    }
 
 }
 
