@@ -445,8 +445,14 @@ color: #405de6;
     
     #cv .resume {
         padding: 40px;
-        margin-left:50px;
+        margin-left:0px;
 
+    }
+
+    #cv {
+        background-color: #23232d;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #slogan {
@@ -487,6 +493,25 @@ color: #405de6;
      width:100%;
      text-align: left;
     }
+
+    /* portfolio */
+
+    #portFolio{
+
+    }
+
+    #portFolio .row{
+        position: relative;
+    }
+
+
+    .portSite {
+       border: 5px solid yellow;
+       
+    }
+
+
+
 
 }
 
