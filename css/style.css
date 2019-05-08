@@ -528,13 +528,17 @@ color: #405de6;
     }
 
 
-    div#collapse {
-        position: static;
+    #collapse {
         z-index: 2000 !important;
         background-color: red;
         border:3px solid white;
+        height: 250px;
+        margin-top: 20px;
         
     }
+
+
+  
 
     #mainStuff{
         z-index: 200 !important;
@@ -580,6 +584,7 @@ color: #405de6;
     }
 
     #mockUp {
+        float: right;
         position: relative;
         margin-top: 10px;
     }
@@ -589,7 +594,7 @@ color: #405de6;
     }
 
     #mockUp img {
-        width: 500px;
+        width:400px;
     }
 
     .portSite {
