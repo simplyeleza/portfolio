@@ -506,9 +506,10 @@ color: #405de6;
 
 
     .portSite {
-       border: 5px solid yellow;
-       
-    }
+       float:none;
+       margin: 0px auto 0px auto;
+       margin-top: 30px;
+        }
 
 
 
