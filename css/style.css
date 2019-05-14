@@ -531,15 +531,19 @@ color: #405de6;
 
 
     div#collapse {
-        position: static;
-        z-index: 2000 !important;
-        background-color: red;
+
         border:3px solid white;
         
     }
 
+    .navbar-collapse{
+        position: relative;
+        z-index: 2000 !important;
+        background-color:#23232d;
+    }
+
     #mainStuff{
-        z-index: 200 !important;
+        
     }
 
     .navbar-default .navbar-nav>li>a{
