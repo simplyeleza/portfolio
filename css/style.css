@@ -523,11 +523,9 @@ color: #405de6;
 @media only screen and (max-width : 480px) {
 
     #kichwa{
-        height: 150px;
+        height: 100px;
     }
  
-
-    
 
 
     div#collapse {
