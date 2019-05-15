@@ -160,7 +160,7 @@ a#icon {
 /* About Me */
 
 #aboutMe{
-    background-color: #e2e9f1;
+    background-color: #dfe2e6;
     padding:15px;
 
 }
@@ -553,7 +553,10 @@ color: #405de6;
     #aboutMe p {
         width: 100%;
         font-size:120%;
+        background-color: white;
     }
+    
+
     
     
     #contact{
