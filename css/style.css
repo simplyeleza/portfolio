@@ -550,10 +550,17 @@ color: #405de6;
     }
 
 
+
+    
+
+    #aboutMe  {
+        background: none repeat scroll 0 0 #f8f8f8;
+    }
+
     #aboutMe p {
         width: 100%;
         font-size:120%;
-        background-color: white;
+      
     }
     
 
