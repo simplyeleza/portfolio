@@ -552,7 +552,7 @@ color: #405de6;
 
     #aboutMe p {
         width: 100%;
-
+        font-size:120%;
     }
     
     
@@ -615,9 +615,17 @@ color: #405de6;
         width:200px;
     }
 
+
+    #portFolio .row {
+        position: relative;
+        margin-right: 0px auto !important;
+        margin-left: 0px auto !important;
+        
+    }
+
     .portSite {
      
-        width:400px;
+        width:300px;
         background-color: transparent;
         margin:0px 0px auto;
         margin-top:30px;
