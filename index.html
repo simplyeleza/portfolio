@@ -302,82 +302,34 @@ and shape my surroundings."/>
   <script>
   
 
-  
-  var pics = document.getElementById('portFolio');
+
+// rama site overlay short
+
+let pics = document.getElementById('portFolio');
+   
+   pics.addEventListener('mouseover',event => {
+
+    if(event.target.nodeName === 'IMG'){
+
+        let pictureBox = event.target.parentNode;     
+        let picture= event.target;
+        let button = picture.previousElementSibling;
+              
+        button.style.display="block";
+        picture.style.opacity="0.1";
 
 
-  pics.addEventListener('mouseover',function(e){
-    
-    //console.log(e);
-    
-    if(e.target.tagName === 'IMG') {
-
-      
-
-      var pictureBox = e.target.parentNode;
-
-      //console.log(picture + "Is the parent ");
-
-      var picture =e.target;
-      
-      var button = picture.previousElementSibling;
-
-      //console.log(picture);
-
-      console.log(button);
-
-      button.style.display="block";
-
-      picture.style.opacity="0.1";
-
-
-
-      picture.addEventListener('mouseout',function(){
-     
-        button.style.display="none";
-        picture.style.opacity="1.0";
-
-      })
-
-
-
-
-
+        picture.addEventListener('mouseout',()=>{     
+            button.style.display="none";
+            picture.style.opacity="1.0";   
+          })
 
     }
-
-  },false);
-
+   });
 
 
-
-
-//   var pics =document.getElementById('pics');
-
-// pics.addEventListener('click',function(e){
-
-//  console.log(e);
-//  if(e.target.tagName === 'IMG') {
-
-//        console.log(this);
-//        var howMany =this.querySelectorAll('a').length;
-
-//        if(howMany > 1 ){
-//          var removeTarget = e.target.parentNode;
-//          removeTarget.parentNode.removeChild(removeTarget);
-//        } else {
-
-//          var photoTitle = e.target.alt;
-
-         
-
-
-//          document.getElementById('change').innerHTML= "<p> You've changed " + photoTitle + "</p>";
-
-//        }
-//  }
-// },false);
-
+  
+  
   </script>
 
 
