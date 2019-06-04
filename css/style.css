@@ -304,6 +304,7 @@ text-align: center;
 
 .portSite a{
     display: none;
+    z-index: 300;
     position:absolute;
     text-align:center;
     color:#ffffff;
@@ -325,14 +326,15 @@ text-align: center;
 }
 
 
-.portSite a:hover{
+/* .portSite a:hover{
     color: #ffffff;
     background-color: #a5130f;
-    letter-spacing: 2px;
+     letter-spacing: 2px; 
 
-}
+} */
 
 .portSite img{
+    z-index: 200;
     transition:all .5s ease;
     -webkit-transition:all .5s ease;
     -moz-transition:all .5s ease;
@@ -368,12 +370,12 @@ text-align: center;
 
 
 
-#portFolio a:hover{
+/* #portFolio a:hover{
     color: #ffffff;
     background-color: #a5130f;
     letter-spacing: 2px;
     margin-top: 40px;
-}
+} */
 
 /* Contact */
 

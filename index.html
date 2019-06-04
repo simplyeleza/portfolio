@@ -200,7 +200,7 @@ and shape my surroundings."/>
 
 
         <div class="col-md-6 col-sm-5 portSite">
-          <a href="#" >View More</a>   
+          <a  >View More</a>   
           <img src="images/sites/prof.jpg" class="pics" />
           
           
@@ -209,7 +209,7 @@ and shape my surroundings."/>
 
 
         <div class="col-md-6 col-sm-5 portSite">
-            <a href="#" >View More</a>   
+            <a  >View More</a>   
           <img src="images/sites/paradise2.png" class="pics" />
         </div>
 
@@ -224,13 +224,13 @@ and shape my surroundings."/>
 
 
           <div class="col-md-6 col-sm-12 portSite">
-              <a href="#" >View More</a>   
+              <a  >View More</a>   
             <img src="images/sites/gotick.jpg" class="pics" />
           </div>
   
   
           <div class="col-md-6 col-sm-12 portSite">
-              <a href="#" >View More</a>   
+              <a  >View More</a>   
             <img src="images/sites/phan.jpg" class="pics" />
           </div>
   
@@ -319,13 +319,27 @@ let pics = document.getElementById('portFolio');
         picture.style.opacity="0.1";
 
 
+
+
+       button.addEventListener('mouseover', event  =>{
+        button.style.display="block";
+        button.style.cursor="pointer";
+        picture.style.opacity="0.1";
+        event.preventDefault();
+
+
+
+       })
+
+
         picture.addEventListener('mouseout',()=>{     
-            button.style.display="none";
+           button.style.display="none";
             picture.style.opacity="1.0";   
           })
 
-    }
-   });
+
+        }
+   },true);
 
 
   
