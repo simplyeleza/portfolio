@@ -331,8 +331,11 @@ let pics = document.getElementById('portFolio');
         event.preventDefault();
 
         button.addEventListener('click',event =>{
+          button.style.display="none";
+          picture.style.opacity="1.0";
           let modal=document.getElementById('present');
           modal.style.display="block";
+
 
           let close = modal.firstElementChild;
 
@@ -345,8 +348,6 @@ let pics = document.getElementById('portFolio');
        })
 
        
-
-
         picture.addEventListener('mouseout',()=>{     
            button.style.display="none";
             picture.style.opacity="1.0";   
