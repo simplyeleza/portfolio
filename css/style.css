@@ -271,7 +271,33 @@ text-decoration:none;
 
 
 #portFolio{
-text-align: center;
+position:relative;
+text-align:center;
+}
+
+#present{
+display:none;
+position:absolute;
+top: 10px;
+width:100%;
+height:500px;
+background-color: #003b59;
+z-index: 3987;
+}
+
+
+#present span{ 
+color: #FFFFFF;
+text-align: right;
+float: right;
+margin-right: 10px;
+font-size: 50pt;
+cursor:pointer;
+}
+
+#present h3{
+ margin-top: 100px;   
+color: #FFFFFF;
 }
 
 
@@ -367,7 +393,6 @@ text-align: center;
     background-color:#23232d;
     text-decoration:none;
 }
-
 
 
 /* #portFolio a:hover{

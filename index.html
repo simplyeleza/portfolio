@@ -194,6 +194,12 @@ and shape my surroundings."/>
 
 
          <h3>My Work</h3>
+     
+      <div id="present">
+        <span>X</span>
+        <h3>Coming Soon <i class="fas fa-hourglass-half"></i></h3>
+
+      </div>   
 
 
       <div class="row">
@@ -318,18 +324,27 @@ let pics = document.getElementById('portFolio');
         button.style.display="block";
         picture.style.opacity="0.1";
 
-
-
-
        button.addEventListener('mouseover', event  =>{
         button.style.display="block";
         button.style.cursor="pointer";
         picture.style.opacity="0.1";
         event.preventDefault();
 
+        button.addEventListener('click',event =>{
+          let modal=document.getElementById('present');
+          modal.style.display="block";
+
+          let close = modal.firstElementChild;
+
+          close.addEventListener('click', () =>{
+            modal.style.display ="none";
+          })
 
 
+        });
        })
+
+       
 
 
         picture.addEventListener('mouseout',()=>{     
