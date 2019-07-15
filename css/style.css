@@ -683,6 +683,13 @@ color: #405de6;
         background: none repeat scroll 0 0 #f8f8f8;
     }
 
+
+    #aboutMe h3 {
+
+        font-size: 35pt;
+    }
+
+
     #aboutMe p {
         width: 100%;
         font-size:120%;
@@ -718,7 +725,7 @@ color: #405de6;
     #slogan {
         position: relative;
         height: 200px;
-        margin-top:50px;
+        margin-top:10px;
         left: 0px;
         right: 0px;
     }
