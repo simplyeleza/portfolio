@@ -94,27 +94,40 @@ width:100px;
 
 
 #slogan h2 {
-    color: #ffffff;
+    
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 70px;
+    color:#ffffff ; 
+
 }
 
 
 #slogan h2 span.zero{
     font-size: 200%;
-    font-weight: 300;  
+    font-weight: 300;
+  
 }
 
 #slogan h2 span.first{
     font-size: 200%;   
     font-weight: 300;
+   
 }
 
 #slogan h2 span.second{
     font-weight: 600;
-    font-size: 300%;
+    font-size: 250%;
+    display: block;
+   
 }
 
+
+#slogan h2 span.third{
+    font-weight: 600;
+    font-size: 250%;
+    display: block;
+    
+}
 
 
 #mockUp {
@@ -481,11 +494,9 @@ color: #405de6;
 
     #slogan {
      margin-top: 10px;
-     position:absolute;
+     position: absolute;
      top: 0px;
-     right: 100px;
-
-     
+     right: 100px;     
     }
 
 
@@ -493,6 +504,35 @@ color: #405de6;
         font-size: 150%;
         line-height: 50px;
     }
+
+
+    #slogan h2 span.zero{
+        font-size: 150%;
+        font-weight: 300;
+      
+    }
+    
+    #slogan h2 span.first{
+        font-size: 150%;   
+        font-weight: 300;
+       
+    }
+    
+    #slogan h2 span.second{
+        font-weight: 600;
+        font-size: 200%;
+        display: block;
+       
+    }
+    
+    
+    #slogan h2 span.third{
+        font-weight: 600;
+        font-size: 200%;
+        display: block;
+        
+    }
+
 
     #mockUp {
         float: right;
