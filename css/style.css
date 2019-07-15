@@ -116,7 +116,7 @@ width:100px;
 
 #slogan h2 span.second{
     font-weight: 600;
-    font-size: 250%;
+    font-size: 200%;
     display: block;
    
 }
@@ -124,7 +124,7 @@ width:100px;
 
 #slogan h2 span.third{
     font-weight: 600;
-    font-size: 250%;
+    font-size: 200%;
     display: block;
     
 }
@@ -470,6 +470,67 @@ color: #405de6;
 
 
 
+@media (min-device-width:800px) and (max-device-width:1024px){
+
+
+    .mainBox{
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    #slogan {
+        margin-top: 10px;
+        position: absolute;
+        top: 0px;
+        right: 100px;     
+       }
+   
+   
+       #slogan h2{
+           font-size: 150%;
+           line-height: 50px;
+       }
+   
+   
+       #slogan h2 span.zero{
+           font-size: 150%;
+           font-weight: 300;
+         
+       }
+       
+       #slogan h2 span.first{
+           font-size: 150%;   
+           font-weight: 300;
+          
+       }
+       
+       #slogan h2 span.second{
+           font-weight: 600;
+           font-size: 200%;
+           display: block;
+          
+       }
+       
+       
+       #slogan h2 span.third{
+           font-weight: 600;
+           font-size: 200%;
+           display: block;
+           
+       }
+
+
+       #mockUp {
+        float: right;
+        margin-right: 200px;
+        overflow:visible;
+        margin-top:230px;
+
+    }
+}
+
+
 /* Ipads */
 
 
@@ -541,6 +602,7 @@ color: #405de6;
         margin-top:200px;
 
     }
+
     #mockUp img{
         width: 550px;
     }
