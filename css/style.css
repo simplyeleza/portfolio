@@ -382,6 +382,33 @@ color: #FFFFFF;
 
 
 
+
+
+
+/*   Modal styling Beginning */
+
+
+.modal-dialog {
+ 
+    width: 90%;
+
+    height:600px !important;
+
+  }
+
+.modal-content {
+
+/* 80% of window height */
+
+height: 60%;
+
+
+}       
+
+
+
+/*   Modal styling End */
+
  a#portFol{
     display:block;
     text-align:center;
