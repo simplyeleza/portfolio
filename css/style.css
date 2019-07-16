@@ -393,25 +393,84 @@ color: #FFFFFF;
     width: 90%;
 
     height:600px !important;
-
+    background-color: #E2E9F1;
   }
 
 .modal-content {
 
 /* 80% of window height */
 
-height: 60%;
-
+height: 100%;
+background-color: #E2E9F1;
 
 } 
 
 
 
-.modal-title{
+h5.modal-title{
+font-size: 30pt;
+}
+
+h5.modal-title a{
+display: inline;
+position: relative;
+text-align: center;
+color: #ffffff;
+line-height: 10px;
+padding: 13px 16px;
+
+
+    border-radius: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+
+    right: 0;
+    top: 0px; 
+    margin: auto;
+    border: 2px solid #FFFFFF;
+    background-color: #23232d;
+    text-decoration: none;
+}
+
+.modal-body p{
+font-size: 14pt;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.modal-body ul{
 
 }
 
 
+.modal-body ul li{
+color: #FFFFFF;
+background-color: #000000;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:12pt;
+width: auto;
+text-align: left;
+border: 1px solid black;
+list-style-type: none;
+padding: 5px;
+margin-top: 20px;
+
+}
+
+.modal-body ul li i{
+display: inline-block;
+margin-right: 10px;
+}
+
+.modal-body ul li span{
+    font-size: 16pt; 
+    display: inline-block;
+margin-right: 20px; 
+}
+
+
+.modal-body img{
+    
+}
 
 /*   Modal styling End */
 
