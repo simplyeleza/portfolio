@@ -409,6 +409,17 @@ background-color: #E2E9F1;
     position: relative;
 }
 
+
+.modal-header button{
+   
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1;
+    color: #000;
+    opacity: .8;
+}
+
 h5.modal-title{
 position: relative;
 width:400px;
