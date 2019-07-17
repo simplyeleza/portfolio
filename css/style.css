@@ -391,8 +391,7 @@ color: #FFFFFF;
 .modal-dialog {
  
     width: 90%;
-
-    height:600px !important;
+    height:auto !important;
     background-color: #E2E9F1;
   }
 
