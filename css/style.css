@@ -450,38 +450,36 @@ text-decoration: none;
 }
 
 .modal-body p{
+position: relative;
 font-size: 14pt;
 font-family: 'Source Sans Pro', sans-serif;
 }
 
-.modal-body ul{
 
-}
 
 
 .modal-body ul li{
-color: #FFFFFF;
-background-color: #000000;
+color: #000000;
 font-family: 'Source Sans Pro', sans-serif;
 font-size:12pt;
 width: auto;
 text-align: left;
-border: 1px solid black;
+border: 0px solid black;
 list-style-type: none;
 padding: 5px;
-margin-top: 20px;
+margin-top: 5px;
 
 }
 
 .modal-body ul li i{
 display: inline-block;
-margin-right: 10px;
+margin-right: 2px;
 }
 
 .modal-body ul li span{
     font-size: 16pt; 
     display: inline-block;
-margin-right: 20px; 
+margin-right:5px; 
 }
 
 
