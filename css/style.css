@@ -405,31 +405,38 @@ background-color: #E2E9F1;
 
 } 
 
-
+.modal-header{
+    position: relative;
+}
 
 h5.modal-title{
+position: relative;
+width:400px;
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
 font-size: 30pt;
+padding: 5px;
+border-bottom: 5px solid #003b59;
+margin: 0px auto 0px auto;
 }
 
 h5.modal-title a{
-display: inline;
+display: inline-block;
+width: 50px;
 position: relative;
 text-align: center;
 color: #ffffff;
 line-height: 10px;
 padding: 13px 16px;
-
-
-    border-radius: 50px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-
-    right: 0;
-    top: 0px; 
-    margin: auto;
-    border: 2px solid #FFFFFF;
-    background-color: #23232d;
-    text-decoration: none;
+border-radius: 20px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+right: 0;
+top: -8px; 
+margin: auto;
+border: 2px solid #FFFFFF;
+background-color: #23232d;
+text-decoration: none;
 }
 
 .modal-body p{
