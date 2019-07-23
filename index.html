@@ -251,7 +251,7 @@ and shape my surroundings."/>
           <div class="col-md-6 col-sm-5 portSite">
             <a  >View More</a>  
              
-            <img src="images/sites/prof.jpg" class="pics" />
+            <img src="images/sites/prof.jpg" class="pics" id="ramakenny"/>
             <h4>Spring Classes  </h4>
             
           </div>
@@ -387,7 +387,7 @@ let pics = document.getElementById('portFolio');
    
    pics.addEventListener('mouseover',event => {
 
-    if(event.target.nodeName === 'IMG'){
+    if(event.target.nodeName === 'IMG' && event.target.previousElementSibling.nodeName === 'A'){
 
         let pictureBox = event.target.parentNode;     
         let picture= event.target;
