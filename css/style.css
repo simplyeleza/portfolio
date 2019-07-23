@@ -449,13 +449,29 @@ background-color: #23232d;
 text-decoration: none;
 }
 
+
+div.modal-conts{
+    position: relative;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    display: block;
+    overflow: hidden;
+
+}
+
 .modal-body p{
 position: relative;
+text-align: left;
+
 font-size: 14pt;
 font-family: 'Source Sans Pro', sans-serif;
 }
 
+.modal-body ul{
 
+text-align: left;
+border-top: 1px solid black;
+}
 
 
 .modal-body ul li{
@@ -463,7 +479,7 @@ color: #000000;
 font-family: 'Source Sans Pro', sans-serif;
 font-size:12pt;
 width: auto;
-text-align: left;
+
 border: 0px solid black;
 list-style-type: none;
 padding: 5px;
