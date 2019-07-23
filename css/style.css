@@ -459,7 +459,7 @@ div.modal-conts{
 
 }
 
-.modal-body p{
+.modal-conts p{
 position: relative;
 text-align: left;
 
@@ -467,35 +467,36 @@ font-size: 14pt;
 font-family: 'Source Sans Pro', sans-serif;
 }
 
-.modal-body ul{
-
-text-align: left;
-border-top: 1px solid black;
-}
 
 
-.modal-body ul li{
+/* .modal-body ul li{
 color: #000000;
 font-family: 'Source Sans Pro', sans-serif;
 font-size:12pt;
 width: auto;
-
 border: 0px solid black;
 list-style-type: none;
 padding: 5px;
 margin-top: 5px;
 
+} */
+
+
+.modal-conts p.tools{
+    font-weight: 600;
 }
 
-.modal-body ul li i{
+.modal-conts p.tools i{
 display: inline-block;
 margin-right: 2px;
+opacity: 0.5;
 }
 
-.modal-body ul li span{
-    font-size: 16pt; 
+.modal-conts p.tools span{
+    font-size: 14pt; 
+    font-weight: 300;
     display: inline-block;
-margin-right:5px; 
+    margin-right:5px; 
 }
 
 
