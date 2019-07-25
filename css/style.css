@@ -501,7 +501,7 @@ opacity: 0.5;
 
 
 .modal-body img{
-    
+  display:block;  
 }
 
 /*   Modal styling End */
