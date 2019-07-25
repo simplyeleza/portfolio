@@ -937,5 +937,20 @@ color: #405de6;
     }
 
 
+    /*   Modal styling mobile */
+
+
+    h5.modal-title{
+        width: 300px;
+    }
+     
+    div.modal-conts{
+     width: 100%;
+    }
+
+    .modal-body img{
+        width: 100%;
+      }
+
    
 }
