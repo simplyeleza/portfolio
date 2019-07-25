@@ -382,6 +382,132 @@ color: #FFFFFF;
 
 
 
+
+
+
+/*   Modal styling Beginning */
+
+
+.modal-dialog {
+ 
+    width: 90%;
+    height:auto !important;
+    background-color: #E2E9F1;
+  }
+
+.modal-content {
+
+/* 80% of window height */
+
+height: 100%;
+background-color: #E2E9F1;
+
+} 
+
+.modal-header{
+    position: relative;
+}
+
+
+.modal-header button{
+   
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1;
+    color: #000;
+    opacity: .8;
+}
+
+h5.modal-title{
+position: relative;
+width:400px;
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 30pt;
+padding: 5px;
+border-bottom: 5px solid #003b59;
+margin: 0px auto 0px auto;
+}
+
+h5.modal-title a{
+display: inline-block;
+width: 50px;
+position: relative;
+text-align: center;
+color: #ffffff;
+line-height: 10px;
+padding: 13px 16px;
+border-radius: 20px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+right: 0;
+top: -8px; 
+margin: auto;
+border: 2px solid #FFFFFF;
+background-color: #23232d;
+text-decoration: none;
+}
+
+
+div.modal-conts{
+    position: relative;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    display: block;
+    overflow: hidden;
+
+}
+
+.modal-conts p{
+position: relative;
+text-align: left;
+
+font-size: 14pt;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+/* .modal-body ul li{
+color: #000000;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:12pt;
+width: auto;
+border: 0px solid black;
+list-style-type: none;
+padding: 5px;
+margin-top: 5px;
+
+} */
+
+
+.modal-conts p.tools{
+    font-weight: 600;
+}
+
+.modal-conts p.tools i{
+display: inline-block;
+margin-right: 2px;
+opacity: 0.5;
+}
+
+.modal-conts p.tools span{
+    font-size: 14pt; 
+    font-weight: 300;
+    display: inline-block;
+    margin-right:5px; 
+}
+
+
+.modal-body img{
+  display:block;
+  margin: 10px;
+  float: left;
+}
+
+/*   Modal styling End */
+
  a#portFol{
     display:block;
     text-align:center;
@@ -810,6 +936,21 @@ color: #405de6;
 
     }
 
+
+    /*   Modal styling mobile */
+
+
+    h5.modal-title{
+        width: 300px;
+    }
+     
+    div.modal-conts{
+     width: 100%;
+    }
+
+    .modal-body img{
+        width: 100%;
+      }
 
    
 }
