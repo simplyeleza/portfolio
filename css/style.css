@@ -501,7 +501,9 @@ opacity: 0.5;
 
 
 .modal-body img{
-  display:block;  
+  display:block;
+  margin: 10px;
+  float: left;
 }
 
 /*   Modal styling End */
