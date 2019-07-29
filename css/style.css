@@ -949,6 +949,8 @@ color: #405de6;
 
     h5.modal-title{
         width: 300px;
+        margin-top: 70px;
+        font-size: 23pt;
     }
      
     div.modal-conts{
