@@ -940,6 +940,13 @@ color: #405de6;
     /*   Modal styling mobile */
 
 
+    .modal-dialog {
+ 
+        width:100%;
+        margin-left: 0px;
+      }
+    
+
     h5.modal-title{
         width: 300px;
     }
