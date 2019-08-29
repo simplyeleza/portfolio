@@ -93,7 +93,7 @@ width:100px;
 }
 
 
-#slogan h2 {
+#slogan h1 {
     
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 70px;
@@ -102,19 +102,19 @@ width:100px;
 }
 
 
-#slogan h2 span.zero{
+#slogan h1 span.zero{
     font-size: 200%;
     font-weight: 300;
   
 }
 
-#slogan h2 span.first{
+#slogan h1 span.first{
     font-size: 200%;   
     font-weight: 300;
    
 }
 
-#slogan h2 span.second{
+#slogan h1 span.second{
     font-weight: 600;
     font-size: 200%;
     display: block;
@@ -122,7 +122,7 @@ width:100px;
 }
 
 
-#slogan h2 span.third{
+#slogan h1 span.third{
     font-weight: 600;
     font-size: 200%;
     display: block;
@@ -613,25 +613,25 @@ color: #405de6;
        }
    
    
-       #slogan h2{
+       #slogan h1{
            font-size: 150%;
            line-height: 50px;
        }
    
    
-       #slogan h2 span.zero{
+       #slogan h1 span.zero{
            font-size: 150%;
            font-weight: 300;
          
        }
        
-       #slogan h2 span.first{
+       #slogan h1 span.first{
            font-size: 150%;   
            font-weight: 300;
           
        }
        
-       #slogan h2 span.second{
+       #slogan h1 span.second{
            font-weight: 600;
            font-size: 200%;
            display: block;
@@ -639,7 +639,7 @@ color: #405de6;
        }
        
        
-       #slogan h2 span.third{
+       #slogan h1 span.third{
            font-weight: 600;
            font-size: 200%;
            display: block;
@@ -687,25 +687,25 @@ color: #405de6;
     }
 
 
-    #slogan h2{
+    #slogan h1{
         font-size: 150%;
         line-height: 50px;
     }
 
 
-    #slogan h2 span.zero{
+    #slogan h1 span.zero{
         font-size: 150%;
         font-weight: 300;
       
     }
     
-    #slogan h2 span.first{
+    #slogan h1 span.first{
         font-size: 150%;   
         font-weight: 300;
        
     }
     
-    #slogan h2 span.second{
+    #slogan h1 span.second{
         font-weight: 600;
         font-size: 200%;
         display: block;
@@ -713,7 +713,7 @@ color: #405de6;
     }
     
     
-    #slogan h2 span.third{
+    #slogan h1 span.third{
         font-weight: 600;
         font-size: 200%;
         display: block;
@@ -858,26 +858,26 @@ color: #405de6;
 
 
 
-    #slogan h2 span.zero{
+    #slogan h1 span.zero{
         font-size: 150%;
         font-weight: 300;
       
     }
     
-    #slogan h2 span.first{
+    #slogan h1 span.first{
         font-size: 150%;   
         font-weight: 300;
        
     }
     
-    #slogan h2 span.second{
+    #slogan h1 span.second{
         font-weight: 600;
         font-size: 150%;
         display: block;
        
     }
 
-    #slogan h2 span.third{
+    #slogan h1 span.third{
         font-weight: 600;
         font-size: 150%;
         display: block;
@@ -903,7 +903,7 @@ color: #405de6;
         display: none;
     }
 
-    #slogan h2 {
+    #slogan h1 {
         font-size: 100%;
         line-height: 30px;
      }
