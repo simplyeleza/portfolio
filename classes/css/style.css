@@ -131,6 +131,24 @@ width: 600px;
 
 /* What*/
 
+#what{
+    padding:50px 0px 0px 0px ;
+}
+
+#what h2{
+    text-align: center;
+    padding-bottom: 40px;
+    background-image: url(../images/table.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+#what p{
+margin-top: 50px;
+line-height: 3;
+font-size: 12pt;
+}
 
 
 /* CV */
