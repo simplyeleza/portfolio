@@ -191,12 +191,32 @@ margin-top: 100px;
 }
 
 
-/* CV */
+/* why */
 
+#why{
 
+}
 
+#why h2{
+margin-top: 100px;    
+margin-bottom: 50px;
+text-align: center;
+}
 
+.reason{
+text-align: center;
+}
 
+.reason i{
+font-size: 50pt;
+text-align: center;
+}
+
+.reason p{
+  margin-top: 10px;
+  font-size: 12pt;
+  text-align: left;
+}
 
 
 /*   Modal styling Beginning */
@@ -207,6 +227,62 @@ margin-top: 100px;
 
 
 /* Contact */
+
+
+/* Contact */
+
+
+
+
+#foot{
+    margin-top:50px;
+    text-align:center;
+    background-color: #23232d;
+}
+
+
+#foot h3{
+ color:#ffffff;
+}
+
+
+#foot h4{
+    color:#ffffff;
+}
+
+.socialBox{
+position:relative;
+text-align: center;
+}
+
+.social{
+text-align: center;
+margin:0px auto 0px auto;
+margin-top: 20px;
+margin-bottom: 20px;
+float:none;
+}
+
+
+
+.social a{
+margin:10px;
+}
+
+
+.social a i.fa-linkedin{
+color:#0077b5;
+}
+
+
+.social a i.fa-youtube{
+color:#cc181e;
+}
+
+
+.social a i.fa-instagram{
+color: #405de6;
+}
 
 
 
