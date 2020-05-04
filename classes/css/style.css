@@ -194,7 +194,8 @@ margin-top: 100px;
 /* why */
 
 #why{
-
+ background-color: #e2e9f1 !important;
+ margin-top: 100px;
 }
 
 #why h2{
@@ -226,7 +227,24 @@ text-align: center;
 
 
 
-/* Contact */
+/* students*/
+
+
+#students{
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+#students .row{
+margin: 50px 0px 50px 0px;
+
+}
+
+.student img{
+ width: 200px;
+}
+
+
 
 
 /* Contact */
