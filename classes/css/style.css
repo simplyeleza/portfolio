@@ -205,27 +205,45 @@ margin-top: 100px;
 #why{
  background-color: #e2e9f1 !important;
  margin-top: 100px;
+ position: relative;
+ text-align: center;
+
+}
+
+.benefits{
+
+    text-align: center;
 }
 
 #why h2{
-margin-top: 100px;    
-margin-bottom: 50px;
+margin-top: 10px;    
+margin-bottom: 100px;
+margin-left: 0px auto;
+margin-right: 0px auto;
 text-align: center;
 }
 
 .reason{
 text-align: center;
+
+}
+
+.reasonCircle{
+    background: #ffffff;
+    
+    width: 100px;
+    height: 100px;
 }
 
 .reason i{
-font-size: 50pt;
+font-size: 30pt;
 text-align: center;
 }
 
 .reason p{
   margin-top: 10px;
   font-size: 12pt;
-  text-align: left;
+  text-align: center;
 }
 
 
