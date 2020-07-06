@@ -178,13 +178,12 @@ text-align: center;
 .section h3{
 font-size: 18pt;
 position: absolute;
-border: 1px solid black;
 margin: 0px;
 width: 40px;
 height: 40px;
 color: #FFFFFF;
-background-color: #000000;
-top: ;
+background-color:black;
+
 }
 
 
