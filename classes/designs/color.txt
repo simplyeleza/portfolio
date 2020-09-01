@@ -6,3 +6,9 @@ color  #e2e9f1
 https://academy.nomadcoders.co/p/kakaoclone_total?fbclid=IwAR0IkMKBhwDkM6zrp-za685VaXtOYj80S3OyXDQKPeFudTXn7rCpIFVHVNY
 
 
+Learn the art of web programming.
+I will help you lay a good foundation with a project
+where you will implement your knowledge.
+Learn HTML , CSS and basic design concepts which will spearhead
+you to a great future in this development field.
+
