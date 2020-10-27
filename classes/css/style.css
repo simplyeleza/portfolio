@@ -199,7 +199,7 @@ margin-top: 100px;
 }
 
 
-/* why */
+/* Why Benefits */
 
 #why{
  background-color: #e2e9f1 !important;
@@ -210,7 +210,6 @@ margin-top: 100px;
 }
 
 .benefits{
-
     text-align: center;
 }
 
@@ -225,31 +224,42 @@ background-color: white;
 font-weight: 800;
 }
 
-.reason{
-text-align: center;
-border-left: 5px solid white;
-border-right: 5px solid white;
+div.reasons{
 
 }
 
-.reasonCircle{
-    background: #ffffff;
-    
-    width: 100px;
-    height: 100px;
+
+div.reasons ul{
+    text-align:left;
 }
 
-.reason i{
-font-size: 30pt;
-text-align: center;
+
+div.reasons ul li{
+  list-style-type: none; 
+  margin: 20px; 
+  font-weight: 600;
+  background-color: #ffffff;
+  padding: 10px;
 }
 
-.reason p{
-  margin-top: 10px;
-  margin-bottom: 50px;
-  font-size: 12pt;
-  text-align: center;
+
+
+div.reasons ul li i.fa{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 45px;  
 }
+
+div.reasons ul li b.reason{
+    display: inline-block;
+    margin-left: 25px;
+   
+}
+
+i.fa-eye{
+color:#ee4d4b;
+}
+
 
 
 /*   Modal styling Beginning */
