@@ -299,17 +299,34 @@ color:#ee4d4b;
 
 
 #students{
-    margin: 100px 0px 100px 0px;
-    text-align: center;
+   
+    text-align: left;
+}
+
+
+#students h2{
+   text-align: center;
+   margin-bottom: 45px;
+
+
 }
 
 #students .row{
-margin: 50px 0px 50px 0px;
+margin:0px auto 0px auto;
 
 }
 
+
+.student p{
+
+    line-height: 35px;
+
+
+   }
+
+
 .student img{
- width: 200px;
+ width: 500px;
 }
 
 
