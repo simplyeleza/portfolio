@@ -387,14 +387,25 @@ color: #405de6;
 /* Main Stuff For Marketing */
 
 
+.main{
+    position: relative;
+    
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    }
+
 #motto{
     text-align: left;
+    padding: 0px;
 }
 
 #motto h1{
 text-align:left;
 color: black;
 font-size: 12pt;
+line-height: 25px;
 }
 
 #motto a{
@@ -409,8 +420,12 @@ font-size: 12pt;
     border-radius: 5px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
+
     margin: 0px auto 0px auto;
+    margin-left: 0px;
     margin-top: 10px;
+    margin-bottom: 10px;
+
     transition: all .5s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 2s ease;
@@ -434,7 +449,6 @@ font-size: 12pt;
 
 #laptop img{
 
-width: 600px;
 }
 
 
