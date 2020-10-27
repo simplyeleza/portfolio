@@ -248,12 +248,13 @@ div.reasons ul li{
 div.reasons ul li i.fa{
   display: inline-block;
   margin-right: 10px;
-  font-size: 45px;  
+  font-size: 45px;
+  width: 50px;
 }
 
 div.reasons ul li b.reason{
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 5px;
    
 }
 
@@ -307,21 +308,15 @@ color:#ee4d4b;
 #students h2{
    text-align: center;
    margin-bottom: 45px;
-
-
 }
 
 #students .row{
 margin:0px auto 0px auto;
-
 }
 
 
 .student p{
-
     line-height: 35px;
-
-
    }
 
 
@@ -331,11 +326,7 @@ margin:0px auto 0px auto;
 
 
 
-
 /* Contact */
-
-
-
 
 #foot{
     margin-top:50px;
@@ -367,7 +358,6 @@ float:none;
 }
 
 
-
 .social a{
 margin:10px;
 }
@@ -381,7 +371,6 @@ color:#0077b5;
 .social a i.fa-youtube{
 color:#cc181e;
 }
-
 
 .social a i.fa-instagram{
 color: #405de6;
