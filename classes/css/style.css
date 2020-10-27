@@ -378,6 +378,167 @@ color: #405de6;
 
 
 
+/* Custom, iPhone Retina */
+
+
+@media only screen and (max-width : 480px) {
+
+
+/* Main Stuff For Marketing */
+
+
+#motto{
+    text-align: left;
+}
+
+#motto h1{
+text-align:left;
+color: black;
+font-size: 12pt;
+}
+
+#motto a{
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    width: 150px;
+    line-height: 10px;
+    padding: 13px 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    border-radius: 5px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin: 0px auto 0px auto;
+    margin-top: 10px;
+    transition: all .5s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 2s ease;
+    border: 2px solid #FFFFFF;
+    background-color: #de5755;
+    text-decoration: none;
+}
+
+
+
+#motto a:hover{
+
+
+}
+
+#laptop{
+
+ 
+}
+
+
+#laptop img{
+
+width: 600px;
+}
+
+
+
+
+/* What*/
+
+#what{
+    padding: 0px 15px 0px 15px ;
+}
+
+#what h2{
+    text-align: center;
+    padding-bottom: 20px;
+    background-image:none;
+}
+
+.sections{
+ 
+    }
+    
+    .section{
+       margin-top: 10px;
+    }
+    
+    
+    
+    
+    .section h3{
+    font-size: 18pt;
+    position: absolute;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color:black;
+    
+    }
+    
+    
+    .section img{
+    width: 250px;
+    }
+    
+    
+    .section i{
+    font-size: 100pt;
+    margin-top: 100px;
+    
+    }
+    
+
+
+
+/* Why Benefits */
+
+.benefits{
+    text-align: center;
+    padding: 0px;
+}
+
+
+div.reasons ul{
+    text-align:left;
+    padding: 0px;
+}
+
+#why h2{
+ 
+    margin-top:-20px;
+
+    }
+
+
+div.reasons ul li{
+  list-style-type: none;
+  margin-right: 0px;
+  margin-left: 0px; 
+  margin-bottom: 20px; 
+  font-weight: 600;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+
+.survey img{
+    width: 300px;
+}
+
+
+/* students*/
+
+
+
+.student img{
+    width: 300px;
+}
+
+
+
+
+}
+
+
 
    
 
