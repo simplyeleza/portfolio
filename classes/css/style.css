@@ -378,6 +378,33 @@ color: #405de6;
 
 
 
+/* Videos*/
+
+#videos{
+
+}
+
+#videos h2 {
+    margin-bottom: ;
+}
+
+
+#videos p{
+font-weight: 600;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+#videos h2 span{
+    font-weight: 900;
+    color: #de5755;
+}
+
+.video{
+
+}
+
+
 /* Custom, iPhone Retina */
 
 
