@@ -405,6 +405,59 @@ margin-bottom: 25px;
 }
 
 
+/* Survey*/
+
+#surveys{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+.survey1{
+    text-align: center;
+    color: #ffffff;
+    background-color: #de5755;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+
+.survey1 h2{
+
+}
+
+
+.survey1 p{
+  margin-top: 20px;
+}
+
+
+
+.survey1 a{
+    display: block;
+    text-align: center;
+    color: #de5755;
+    width: 200px;
+    line-height: 25px;
+    padding: 13px 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin: 0px auto 0px auto;
+    margin-top: 50px;
+    transition: all .5s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 2s ease;
+    border: 2px solid #FFFFFF;
+    background-color: #ffffff;
+    text-decoration: none; 
+}
+
+
+
+
 /* Custom, iPhone Retina */
 
 
