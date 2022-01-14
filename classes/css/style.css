@@ -151,6 +151,11 @@ width: 600px;
     background-position: center bottom;
 }
 
+#what h2 span{
+color: #de5755;
+font-weight: 800;
+}
+
 
 #what p{
 margin-top: 50px;
