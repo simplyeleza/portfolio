@@ -593,7 +593,9 @@ color:#cc181e;
 color: #405de6;
 }
 
-
+.social a i.fa-whatsapp{
+    color: #4ec95c;
+    }
 
 
 @media (min-device-width:800px) and (max-device-width:1024px){
