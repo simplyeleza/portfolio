@@ -539,12 +539,14 @@ line-height: 25px;
 
 #laptop{
 
- 
+ overflow: hidden;
 }
 
 
 #laptop img{
-
+    margin-top: 10px;
+    width: 300px !important;
+    max-width:max-content;
 }
 
 
