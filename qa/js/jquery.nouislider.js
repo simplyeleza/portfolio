@@ -1046,7 +1046,7 @@
 				// If the test returns false, fail.
 					( isSet && !test['t']( value, input, name ) ) ){
 
-					// For debugging purposes it might be very useful to know
+					// For correcting purposes it might be very useful to know
 					// what option caused the trouble. Since throwing an error
 					// will prevent further script execution, log the error
 					// first. Test for console, as it might not be available.
