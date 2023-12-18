@@ -100,10 +100,11 @@ font-style: normal;
 font-weight: 800;
 line-height: 110px; /* 171.875% */
 letter-spacing: 0.2px;
+margin: 0px auto 0px auto;
   }
 
 
-  #home p{
+  #home h2{
     color: #1E1F4B;
 font-family: Open Sans;
 font-size: 24px;
@@ -111,6 +112,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 36px; /* 150% */
 opacity: 0.8;
+margin-top: 0px;
 
   }
 
@@ -583,3 +585,56 @@ footer img{
 display: inline-block;
 
 } 
+
+
+
+
+/* Custom,Mobile,  iPhone Retina */
+
+
+@media only screen and (max-width : 480px) {
+  
+  .navbar {
+    
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+  #home h1{
+  font-size: 250%;
+  margin: 0px auto 0px auto;
+
+   /* color: #FF66BA;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110px;  171.875%
+    letter-spacing: 0.2px; */
+
+      }
+    
+    
+      #home h2{
+        
+        font-size: 120%; 
+        font-style:normal;
+        font-weight: 600; 
+        /*
+        color: #1E1F4B;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;  150% 
+    opacity: 0.8; */
+    
+      }
+
+      #whyUs .row {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+
+}
