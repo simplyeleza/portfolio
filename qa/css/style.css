@@ -454,7 +454,9 @@ margin: 20px;
 }
 
 
+
 .Mission1 h3{
+  position: relative;
   padding-left: 10px;
   background: rgba(234, 189, 213, 0.80);
 box-shadow: 5.55341px 4.44273px 9.99613px 0px #AF7D98;
@@ -465,8 +467,18 @@ font-size: 36px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
+text-align: center;
   }
 
+  .Mission1 img{
+    width: 150px;
+    position: absolute;
+    width: 80px;
+    left: -30px;
+    top: -10px;
+    }
+
+    
   .Mission1 p{
     background: rgba(243, 214, 230, 0.50);
     box-shadow: 0px 4.44273px 4.44273px 0px rgba(0, 0, 0, 0.25);
@@ -486,8 +498,21 @@ line-height: normal;
   background-color: #FFF;
   margin: 20px;
 
+}
+
+.Vision1 h3 {
+
+position: relative;
+}
 
 
+
+.Vision1 img{
+  position: absolute;
+  width: 80px;
+  right: -30px;
+  top: -10px;
+ 
 }
 
 
