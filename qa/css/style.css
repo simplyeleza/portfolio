@@ -78,7 +78,7 @@ li.navbar-brand img{
     position: relative;
     height: 100vh; /* This makes the header cover the full height of the viewport */
 
-    background-image: url('../images/mainBg2.png');
+    background-image: url('../images/headerBg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
