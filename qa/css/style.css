@@ -357,8 +357,12 @@ margin-top: 20px;
   font-weight: 800;
   line-height: 36px; /* 100% */
 text-align: center;
+ 
 }
 
+h3.panel-title {
+  margin-left: 30px;
+}
 
 
 .panel-title a{
@@ -383,6 +387,27 @@ text-align: center;
 /* Panel styling for relative positioning */
 .panel-heading {
   position: relative;
+}
+
+.panel-heading span.number{
+   position: absolute;
+   left: -20px;
+   display: inline-block;
+   color: #F6B;
+   fill: #FFF;
+   filter: drop-shadow(0px 4px 10px rgba(214, 214, 214, 0.25));
+   font-family: Open Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   padding: 10px;
+   background-color: #FFF;
+   line-height: 18px; /* Adjust line height as needed for vertical centering */
+   border-radius: 50%;
+   width: 36px; /* Example size */
+   height: 36px; /* Equal to width to create a circle */
+   text-align: center; /* Center text horizontally */
+  
 }
 
 /* Panel title styling to ensure the text doesn't overlap with the arrow icon */
