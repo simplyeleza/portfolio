@@ -302,14 +302,9 @@ line-height: 28px; /* 155.556% */
 
 
 .why {
-  padding: 50px;
-  background-image: url('../images/Shape.svg');
-  background-size: cover; /* Will cover the entire area of the div */
-  background-repeat: no-repeat;
-  background-position: center center; /* Center the image within the div */
-  margin-top: 10px;
+  
   background-color: #FFF;
-  min-height: 381px; /* Match the SVG's height */
+  
 
 }
 
@@ -329,7 +324,7 @@ line-height: 28px; /* 155.556% */
 
   color: #1E1F4B;
   font-family: Open Sans;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 155.556% */
