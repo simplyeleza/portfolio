@@ -646,7 +646,14 @@ display: inline-block;
 
 } 
 
+@media (min-width: 768px) {
 
+  
+  ul.nav.navbar-nav li {
+    margin-right: 10px;
+}
+
+}
 
 
 /* Custom,Mobile,  iPhone Retina */
