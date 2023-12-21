@@ -66,8 +66,16 @@ li.navbar-brand {
 
 
 li.navbar-brand img{
-    display: inline-block;
-    width: 60px;
+ 
+}
+
+.subhead img{
+ display: none;
+}
+
+img#logoDesktop{
+  display: inline-block;
+  width: 60px;
 }
 
 
@@ -647,6 +655,22 @@ display: inline-block;
     
     margin-bottom: 0px;
     border: 1px solid transparent;
+}
+
+img#logoDesktop{
+  display: none;
+}
+
+
+.subhead img{
+  display: inline-block;
+  width: 40px;
+}
+
+
+.navbar-brand{
+  padding: 10px 0px 10px 10px;
+  height: 60px;
 }
 
   #home h1{
