@@ -124,6 +124,9 @@ margin-top: 0px;
 
   }
 
+  #contacts{
+    display: none;
+    }
 
  a#contact{
     position: absolute;
@@ -660,6 +663,14 @@ display: inline-block;
 img#logoDesktop{
   display: none;
 }
+
+
+#contacts{
+display: block;
+width: 20px;
+float: right;
+}
+
 
 
 .subhead img{
