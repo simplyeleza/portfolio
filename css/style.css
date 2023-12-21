@@ -16,7 +16,7 @@ display:none;
 
 #kichwa {
     border-bottom: 1px solid #e7e7e7;
-    height: 200px;
+    height: 120px;
     background-color: #f2f3f3 !important;
     margin-bottom: 0px;
 }
@@ -777,7 +777,7 @@ color: #405de6;
 @media only screen and (max-width : 480px) {
 
     #kichwa{
-        height: 100px;
+        height: 70px;
     }
  
 
