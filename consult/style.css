@@ -1132,18 +1132,38 @@ button {
 
   /* Hero Section Mobile Layout */
   .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
     text-align: center;
   }
 
-  .hero-portrait-wrapper {
-    margin: 0 auto;
-    max-width: 240px;
+  .hero-content {
+    order: 1;
+    max-width: 100%;
   }
 
-  .hero-content {
-    max-width: 100%;
+  .hero-portrait-wrapper {
+    order: 2;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 250px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(229, 91, 76, 0.15) 100%);
+    border-radius: 24px 24px 0 0;
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: none;
+    box-shadow: 0 -5px 25px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+
+  .hero-portrait {
+    max-height: 250px;
+    margin: 0 auto;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.35));
   }
 
   .hero-title {
