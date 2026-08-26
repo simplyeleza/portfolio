@@ -21,10 +21,10 @@
   <link rel="shortcut icon" type="image/png" href="../images/favi1.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=20260826-4">
 
   <!-- Script -->
-  <script src="./script.js" defer></script>
+  <script src="./script.js?v=20260826-4" defer></script>
 </head>
 <body>
 
@@ -109,7 +109,7 @@
 
             <!-- Hero Action CTAs -->
             <div class="hero-actions">
-              <a href="#pricing" class="btn btn-primary">Book Your Session</a>
+              <a href="#contact" class="btn btn-primary" data-booking-plan="General Consultation">Book Your Session</a>
               <a href="#pricing" class="btn btn-secondary-hero">See Pricing</a>
             </div>
           </div>
@@ -138,7 +138,7 @@
          ========================================================================== -->
     <section class="section" id="discuss">
       <div class="container">
-        
+
         <div class="section-header">
           <h2 class="section-title">
             What can we <span class="highlight-accent">discuss?</span>
@@ -231,7 +231,7 @@
          ========================================================================== -->
     <section class="section section-bg-alt" id="about">
       <div class="container">
-        
+
         <div class="section-header">
           <h2 class="section-title">
             About <span class="highlight-accent">Rama</span>
@@ -530,9 +530,9 @@
               </div>
             </div>
 
-            <button class="btn btn-pricing-outline" data-booking-plan="30 Minutes Consultation">
+            <a href="#contact" class="btn btn-pricing-outline" data-booking-plan="30 Minutes Consultation">
               Book 30 Min
-            </button>
+            </a>
           </div>
 
           <!-- Pricing Card 2: 60 Minutes (MOST POPULAR) -->
@@ -563,9 +563,9 @@
               </div>
             </div>
 
-            <button class="btn btn-pricing-popular" data-booking-plan="60 Minutes Consultation">
+            <a href="#contact" class="btn btn-pricing-popular" data-booking-plan="60 Minutes Consultation">
               Book 60 Min
-            </button>
+            </a>
           </div>
 
           <!-- Pricing Card 3: 90 Minutes -->
@@ -594,16 +594,16 @@
               </div>
             </div>
 
-            <button class="btn btn-pricing-outline" data-booking-plan="90 Minutes Consultation">
+            <a href="#contact" class="btn btn-pricing-outline" data-booking-plan="90 Minutes Consultation">
               Book 90 Min
-            </button>
+            </a>
           </div>
 
         </div>
 
         <div class="pricing-notice">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          Payment is required to confirm your booking. Secure payment powered by Stripe.
+          Payment is required to confirm your consultation booking.
         </div>
 
       </div>
@@ -721,23 +721,6 @@
 
         </div>
 
-        <!-- Testimonial Quote Banner 
-        <div class="testimonial-banner">
-          <div class="testimonial-quote-wrapper">
-            <span class="quote-mark">&ldquo;</span>
-            <p class="quote-text">
-              Rama's consultations are practical, honest and extremely helpful. He quickly understands the problem and gives clear next steps.
-            </p>
-          </div>
-          <div class="testimonial-author">
-            <img src="./images/Ken1.png" alt="Happy Client Avatar" class="author-avatar">
-            <div>
-              <div class="author-name">Happy Client</div>
-              <div class="author-location">Nairobi, Kenya</div>
-            </div>
-          </div>
-        </div>  -->
-
       </div>
     </section>
 
@@ -756,17 +739,145 @@
               <p class="cta-subtitle">Book a consultation and let's talk.</p>
             </div>
           </div>
-          <a href="#pricing" class="btn btn-cta-light" data-booking-plan="General Consultation">
+          <a href="#contact" class="btn btn-cta-light" data-booking-plan="General Consultation">
             Book Your Session Now
           </a>
         </div>
       </div>
     </section>
+
+    <!-- ==========================================================================
+         BOOK / CONTACT SECTION
+         ========================================================================== -->
+    <section class="section section-bg-alt" id="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <h2 class="section-title">
+            Ready to Book Your <span class="highlight-accent">Consultation?</span>
+          </h2>
+          <p class="section-subtitle">
+            Choose your preferred contact method. Tell me briefly what you need help with, and we can arrange a suitable consultation time.
+          </p>
+        </div>
+
+        <!-- Selected Package Banner -->
+        <div class="selected-package-bar" id="selected-package-bar" aria-live="polite" aria-atomic="true">
+          <div class="package-bar-inner">
+            <span class="package-bar-icon">🎯</span>
+            <span>Selected Session: <strong id="selected-package-name">General Consultation</strong></span>
+          </div>
+        </div>
+
+        <!-- Contact Interactive Card Wrapper -->
+        <div class="contact-interactive-wrapper">
+
+          <!-- Contact Tabs Switcher -->
+          <div class="contact-tabs-container" role="tablist" aria-label="Contact Methods" aria-orientation="horizontal">
+            <button type="button" class="contact-tab-btn active" id="tab-whatsapp" role="tab" aria-selected="true" aria-controls="slide-whatsapp" data-index="0">
+              <svg class="tab-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>WhatsApp</span>
+            </button>
+            <button type="button" class="contact-tab-btn" id="tab-email" role="tab" aria-selected="false" aria-controls="slide-email" data-index="1" tabindex="-1">
+              <svg class="tab-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email</span>
+            </button>
+          </div>
+
+          <!-- Slider Viewport (Overflow Hidden) -->
+          <div class="contact-slider-viewport" id="contact-slider-viewport">
+            <div class="contact-slider-track" id="contact-slider-track">
+
+              <!-- Slide 1: WhatsApp -->
+              <div class="contact-slide active" id="slide-whatsapp" role="tabpanel" aria-labelledby="tab-whatsapp" aria-hidden="false">
+                <div class="contact-card contact-card-whatsapp">
+                  <div class="contact-card-header">
+                    <div class="contact-icon-box contact-icon-whatsapp">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                      </svg>
+                    </div>
+                    <div class="contact-card-titles">
+                      <span class="contact-method-badge">Primary Option</span>
+                      <h3 class="contact-card-title">WhatsApp</h3>
+                    </div>
+                  </div>
+
+                  <p class="contact-card-desc">
+                    Best for quick consultation inquiries and scheduling.
+                  </p>
+
+                  <a href="#contact"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     class="btn btn-contact-whatsapp"
+                     id="whatsapp-booking-btn">
+                    Chat on WhatsApp
+                  </a>
+                </div>
+              </div>
+
+              <!-- Slide 2: Email -->
+              <div class="contact-slide" id="slide-email" role="tabpanel" aria-labelledby="tab-email" aria-hidden="true" inert>
+                <div class="contact-card contact-card-email">
+                  <div class="contact-card-header">
+                    <div class="contact-icon-box contact-icon-email">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <div class="contact-card-titles">
+                      <span class="contact-method-badge email-badge">Detailed Inquiries</span>
+                      <h3 class="contact-card-title">Email</h3>
+                    </div>
+                  </div>
+
+                  <p class="contact-card-desc">
+                    Best for detailed questions, project information or links you would like me to review.
+                  </p>
+
+                  <div class="contact-detail-row">
+                    <a href="mailto:ramakenkenya@gmail.com" class="contact-detail-link">ramakenkenya@gmail.com</a>
+                  </div>
+
+                  <a href="mailto:ramakenkenya@gmail.com?subject=Consultation%20Inquiry"
+                     class="btn btn-contact-email"
+                     id="email-booking-btn">
+                    Send an Email
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Navigation Dots -->
+          <div class="contact-dots-container" role="group" aria-label="Contact slide navigation">
+            <button type="button" class="contact-dot-btn active" data-index="0" aria-label="Show WhatsApp option" aria-controls="slide-whatsapp" aria-current="true"></button>
+            <button type="button" class="contact-dot-btn" data-index="1" aria-label="Show Email option" aria-controls="slide-email" aria-current="false"></button>
+          </div>
+
+        </div>
+
+        <!-- Optional Contact Explanation Notes -->
+        <div class="contact-notes-box">
+          <div class="contact-note-item">
+            <span class="note-icon">💡</span>
+            <span>Please include a short description of what you would like help with so I can understand your consultation needs before we schedule the session.</span>
+          </div>
+          <div class="contact-note-item">
+            <span class="note-icon">📅</span>
+            <span>Consultation calls are scheduled in advance. I do not accept unscheduled phone calls.</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </main>
 
   <!-- ==========================================================================
-       FOOTER SECTION
-       ========================================================================== -->
+         FOOTER SECTION
+         ========================================================================== -->
   <footer class="site-footer" id="footer">
     <div class="container">
       <div class="footer-grid">
@@ -801,11 +912,11 @@
           <h3 class="footer-column-title">Quick Links</h3>
           <div class="footer-links-list">
             <a href="../index.html" class="footer-link">Home</a>
-            <a href="../index.html#aboutMe" class="footer-link">About Me</a>
+            <a href="#about" class="footer-link">About Rama</a>
             <a href="#discuss" class="footer-link">Services</a>
             <a href="#hero" class="footer-link">Consultation</a>
             <a href="https://www.youtube.com/@ramaken254" target="_blank" rel="noopener" class="footer-link">Videos</a>
-            <a href="#footer" class="footer-link">Contact</a>
+            <a href="#contact" class="footer-link">Contact</a>
           </div>
         </div>
 
@@ -827,7 +938,13 @@
           <h3 class="footer-column-title">Contact</h3>
           <div class="footer-contact-item">
             <svg class="contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <a href="mailto:ramaken260@gmail.com" class="footer-link">ramaken260@gmail.com</a>
+            <a href="mailto:ramakenkenya@gmail.com" class="footer-link">ramakenkenya@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <a href="#contact" id="footer-whatsapp-link" class="footer-link">WhatsApp Consultation</a>
           </div>
           <div class="footer-contact-item">
             <svg class="contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
