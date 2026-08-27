@@ -21,7 +21,7 @@
   <link rel="shortcut icon" type="image/png" href="../images/favi1.png">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="./style.css?v=20260826-4">
+  <link rel="stylesheet" href="./style.css?v=20260827-1">
 
   <!-- Script -->
   <script src="./script.js?v=20260826-4" defer></script>
@@ -67,50 +67,80 @@
     <section class="hero-section" id="hero">
       <div class="container">
         <div class="hero-grid">
-          
-          <!-- Hero Portrait Image -->
-          <div class="hero-portrait-wrapper">
-            <img src="./images/Ken1.png" alt="Rama Ken Portrait" class="hero-portrait">
-          </div>
-
-          <!-- Hero Main Content -->
-          <div class="hero-content">
-            <h1 class="hero-title">
-              Book a<br>
-              <span class="highlight-accent">Consultation</span><br>
-              with Rama
-            </h1>
-            
-            <p class="hero-description">
-              Get expert advice, clear next steps and solutions for your project in a private 1-on-1 Zoom session.
-            </p>
-
-            <!-- Supporting Value Badges -->
-            <div class="hero-features">
-              <div class="hero-feature-item">
-                <span class="hero-feature-icon">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
-                </span>
-                1-on-1 Zoom Call
+          <div class="hero-mobile-top">
+            <!-- Hero Portrait Image -->
+            <div class="hero-profile">
+              <div class="hero-portrait-wrapper">
+                <img src="./images/Ken1.png" alt="Rama Ken Portrait" class="hero-portrait">
               </div>
-              <div class="hero-feature-item">
-                <span class="hero-feature-icon">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
-                </span>
-                Practical Advice
-              </div>
-              <div class="hero-feature-item">
-                <span class="hero-feature-icon">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-                </span>
-                Actionable Next Steps
+              <div class="hero-profile-badge">
+                <span class="hero-profile-star" aria-hidden="true">★</span>
+                <span>Your Project Partner</span>
               </div>
             </div>
 
-            <!-- Hero Action CTAs -->
-            <div class="hero-actions">
-              <a href="#contact" class="btn btn-primary" data-booking-plan="General Consultation">Book Your Session</a>
-              <a href="#pricing" class="btn btn-secondary-hero">See Pricing</a>
+            <!-- Hero Main Content -->
+            <div class="hero-content">
+              <div class="hero-copy">
+                <h1 class="hero-title">
+                  Book a<br>
+                  <span class="highlight-accent">Consultation</span><br>
+                  with Rama
+                </h1>
+
+                <span class="hero-title-rule" aria-hidden="true"></span>
+
+                <p class="hero-description">
+                  Get expert advice, clear next steps and solutions for your project in a private 1-on-1 Zoom session.
+                </p>
+              </div>
+
+              <!-- Supporting Value Cards -->
+              <div class="hero-features">
+                <div class="hero-feature-item">
+                  <span class="hero-feature-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="14" height="14" rx="2"/><path d="m16 10 5-3v10l-5-3z"/></svg>
+                  </span>
+                  <span class="hero-feature-copy">
+                    <span class="hero-feature-title">1-on-1 Zoom Call</span>
+                    <span class="hero-feature-description">Private, focused sessions tailored to your goals.</span>
+                  </span>
+                </div>
+                <div class="hero-feature-item">
+                  <span class="hero-feature-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M8.2 14.6A7 7 0 1 1 15.8 14.6c-.8.7-1.3 1.5-1.5 2.4h-4.6c-.2-.9-.7-1.7-1.5-2.4Z"/></svg>
+                  </span>
+                  <span class="hero-feature-copy">
+                    <span class="hero-feature-title">Practical Advice</span>
+                    <span class="hero-feature-description">Actionable insights and proven strategies you can use right away.</span>
+                  </span>
+                </div>
+                <div class="hero-feature-item">
+                  <span class="hero-feature-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                  </span>
+                  <span class="hero-feature-copy">
+                    <span class="hero-feature-title">Actionable Next Steps</span>
+                    <span class="hero-feature-description">Clear plan and recommendations to move your project forward.</span>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Hero Action CTAs -->
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary" data-booking-plan="General Consultation">
+                  <span class="hero-action-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
+                  </span>
+                  <span class="hero-action-label">Book Your Session</span>
+                  <span class="hero-action-arrow" aria-hidden="true">→</span>
+                </a>
+                <a href="#pricing" class="btn btn-secondary-hero">
+                  <span class="hero-action-icon hero-action-icon-price" aria-hidden="true">$</span>
+                  <span class="hero-action-label">See Pricing</span>
+                  <span class="hero-action-arrow" aria-hidden="true">→</span>
+                </a>
+              </div>
             </div>
           </div>
 
