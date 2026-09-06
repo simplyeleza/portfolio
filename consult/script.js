@@ -64,9 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --------------------------------------------------------------------------
-  // 2. Booking Selection & Dynamic Contact Links
+  // 2. Booking Selection & Dynamic Contact Links  
   // --------------------------------------------------------------------------
-  const whatsAppNumber = ['254', '716', '620', '098'].join('');
+  const whatsAppNumber = ['254', '706', '077', '807'].join('');
   const emailAddress = 'ramakenkenya@gmail.com';
 
   const selectedPackageNameEl = document.getElementById('selected-package-name');
